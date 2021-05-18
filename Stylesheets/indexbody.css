@@ -1,0 +1,15 @@
+body {
+    display: block;
+}
+
+.gpa_calculate {
+    text-align: left;
+    margin: 5px;
+    width: 110px;
+}
+
+.cgpa_calculate {
+    text-align: left;
+    margin: 5px;
+    width: 110px;
+}

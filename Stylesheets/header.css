@@ -1,14 +1,28 @@
-* {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-}
-
 .body {
     display: block;  
     text-align: center;
 }
 
 .header {
-    margin: 50px auto 50px auto;
+    margin: 30px auto 10px auto;
     padding: auto;
     width: fit-content;
+    height: 150px;
+    color: rgb(0, 0, 255);
+}
+
+.gp_head {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.gp_subhead {
+    margin-top: 0px;
+    text-align: center;
+    color: rgba(0, 0, 189, 0.911);
+}
+
+.pa_head {
+    text-align: center;
+    width: 400px;
 }

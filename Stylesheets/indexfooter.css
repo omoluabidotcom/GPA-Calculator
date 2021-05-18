@@ -1,0 +1,25 @@
+* {
+    display: block;
+}
+
+.comment_form {
+    text-align: left;
+    margin: 5px;
+}
+
+.name_input {
+    margin: 10px;
+}
+
+.email_input {
+    margin: 10px;
+}
+
+.comment_input {
+    margin: 10px;
+}
+
+.form_names {
+    margin-left: 10px;
+    color: blue;
+}

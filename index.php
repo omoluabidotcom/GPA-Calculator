@@ -16,7 +16,7 @@
      GPA Calculator
    </title>
 
-   <link href=".css" type="text/css" rel="stylesheet" />
+   <link href="Stylesheets/indexstyle.css" type="text/css" rel="stylesheet" />
 
    <script src=".js" >
     
@@ -25,9 +25,19 @@
  </head>
 
  <body>
-   <
+   
     <?php 
       include 'Views/header.html';
+    ?>
+    
+    <?php 
+      echo "<br />";
+      include 'Views/indexbody.html';
+    ?>
+
+<?php 
+      echo "<br />";
+      include 'Views/indexfooter.html';
     ?>
 
  </body>
