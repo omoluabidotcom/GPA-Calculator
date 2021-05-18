@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+
  <head>
+
    <meta charset="UTF-8" />
    <meta name="descriptions" content="" />
    <meta name="keywords" content="" />
@@ -19,10 +21,14 @@
    <script src=".js" >
     
    </script>
+
  </head>
 
  <body>
-
+   <
+    <?php 
+      include 'Views/header.html';
+    ?>
 
  </body>
 </html>
