@@ -13,7 +13,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
    <title>
-     GPA Calculator
+
    </title>
 
    <link href="Stylesheets/indexstyle.css" type="text/css" rel="stylesheet" />
@@ -35,7 +35,7 @@
       include 'Views/indexbody.html';
     ?>
 
-<?php 
+    <?php 
       echo "<br />";
       include 'Views/indexfooter.html';
     ?>

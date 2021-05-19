@@ -1,5 +1,6 @@
 * {
     display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .comment_form {
@@ -17,6 +18,7 @@
 
 .comment_input {
     margin: 10px;
+    padding-left: 3px;
 }
 
 .form_names {

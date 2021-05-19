@@ -1,0 +1,26 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown_scale {
+    margin: 10px;
+    margin-left: 10px;
+    width: 40px;
+    margin-bottom: 60px;
+    border-width: 1px;
+}
+
+.dropdown_course {
+    margin: 10px;
+    margin-left: 10px;
+    width: 110px;
+    margin-bottom: 164px;
+    border-width: 1px;
+}
+
+h4 {
+    margin: 0px;
+    margin-left: 10px;
+    color: blue;
+}
+

@@ -1,15 +1,39 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 .gpa_calculate {
     text-align: left;
     margin: 5px;
-    width: 110px;
+    margin-left: 10px;
+    width: 115px;
+    color: blue;
+    text-align: center;
 }
 
 .cgpa_calculate {
     text-align: left;
     margin: 5px;
-    width: 110px;
+    margin-left: 10px;
+    width: 115px;
+    color: blue;
+    text-align: center;
+}
+
+.gpa_calculate:hover {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.cgpa_calculate:hover {
+    color: darkblue;
+    font-weight: bold;
 }
