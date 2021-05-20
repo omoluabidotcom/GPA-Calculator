@@ -18,23 +18,22 @@
 
    <link href="Stylesheets/indexstyle.css" type="text/css" rel="stylesheet" />
 
-   <script src=".js" >
-    
-   </script>
-
  </head>
 
  <body>
-   
+
+    <!-- Below an header for the homepage is added using php -->
     <?php 
       include 'Views/header.html';
     ?>
     
+    <!-- Below an body is added to the homepage using php -->
     <?php 
       echo "<br />";
       include 'Views/indexbody.html';
     ?>
 
+    <!-- Below a footer is added to the homepage using php -->
     <?php 
       echo "<br />";
       include 'Views/indexfooter.html';

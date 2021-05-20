@@ -7,6 +7,8 @@
  </head>
 
  <body>
+
+   <!-- Below a dropdown option for the grading system scale is added -->
    <h4> Select Grade Scale Type </h4> <br />
     <select name="scale" size="1" class="dropdown_scale" id="dropdown_scale" >
       
@@ -16,6 +18,7 @@
 
     </select>
    
+   <!-- Below a dropdown of the number of courses to be calculated is added -->
    <h4> Select Course Number </h4> <br />
     <select name="scale" size="1" class="dropdown_course" id="dropdown_course" >
       

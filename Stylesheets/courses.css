@@ -2,3 +2,22 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.inline {
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    float: left;
+  }
+
+  .sno {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    border-width: medium;
+    margin-top: 28px;
+    margin-left: 100px;
+    border-radius: 3px;
+  }
