@@ -37,7 +37,31 @@
               break;
 
           case "eight_course":
-              return include 'Courses/seven.html';
+              return include 'Courses/eight.html';
+              break;
+
+          case "nine_course":
+              return include 'Courses/nine.html';
+              break;
+
+          case "ten_course":
+              return include 'Courses/ten.html';
+              break;
+
+          case "eleven_course":
+              return include 'Courses/eleven.html';
+              break;
+
+          case "twelve_course":
+              return include 'Courses/twelve.html';
+              break;
+
+          case "thirteen_course":
+              return include 'Courses/thirteen.html';
+              break;
+
+          case "fourtheen_course":
+              return include 'Courses/fourtheen.html';
               break;
 
           default: 
