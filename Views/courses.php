@@ -10,19 +10,20 @@
 
     <!-- Below an header for the homepage is added using php -->
     <?php 
-      include 'header.html';
-    ?>
 
-    <br /> <br />
-    <?php 
+      include 'header.html'; 
 
-      // if (isset($_POST['gpacalc'])) {
+      echo "<br /> <br /> <br />";
 
-        if (isset($_POST['scale']))  {
+      if (isset($_POST['scale']))  {
         
-        $variable = $_POST['scale'];
+        // && isset($POST['grading'])
+        
+        $scale = $_POST['scale'];
 
-        switch($variable) {
+        $grading = $_POST['grading'];
+
+        switch($scale) {
           
           case "five_course":
             return include 'Courses/five.html';
@@ -68,18 +69,32 @@
               include 'Courses/five.html';
               break;
           }
-    
 
-      } else {
+          // switch($grading) {
+          
+          //   case "four":
+          //     return include '';
+          //     break;
+            
+          //   case "five":
+          //     return include '';
+          //     break;
+  
+          //   case "seven":
+          //       return include '';
+          //       break;
+  
+          //   default: 
+          //       return include '';
+          //       break;
+          //   }
 
-      }
+      } 
 
-    ?>
+      echo "<br /> <br /> <br />";
 
-    <br /> <br />
-    <!-- Below a footer is added to the homepage using php -->
-    <?php 
       include 'indexfooter.html';
+
     ?>
 
  </body>
