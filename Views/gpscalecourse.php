@@ -7,10 +7,12 @@
  </head>
 
  <body>
+  
+  <form method="POST" action="courses.php">
 
    <!-- Below a dropdown option for the grading system scale is added -->
    <h4> Select Grade Scale Type </h4> <br />
-    <select name="scale" size="1" class="dropdown_scale" id="dropdown_scale" >
+    <select name="grading" size="1" class="dropdown_scale" id="dropdown_scale" >
       
       <option value="four" class="four_p" id="four_p" > 4.0 </option>
       <option value="five" class="five_p" id="five_p" > 5.0 </option>
@@ -26,14 +28,20 @@
       <option value="six_course" class="six_c" id="six_c" > Six Courses </option>
       <option value="seven_course" class="seven_c" id="seven_c" > Seven Courses </option>
       <option value="eight_course" class="eight_c" id="eight_c" > Eight Courses </option>
-      <option value="nine_course" class="nine_c" id="_c" > Nine Courses </option>
-      <option value="ten_course" class="ten_c" id="_c" > Ten Courses </option>
+      <option value="nine_course" class="nine_c" id="nine_c" > Nine Courses </option>
+      <option value="ten_course" class="ten_c" id="ten_c" > Ten Courses </option>
       <option value="eleven_course" class="eleven_c" id="eleven_c" > Eleven Courses </option>
-      <option value="twelve_course" class=twelve_c" id="_c" > Twelve Courses </option>
+      <option value="twelve_course" class="twelve_c" id="twelve_c" > Twelve Courses </option>
       <option value="thirteen_course" class="thirteen_c" id="thirteen_c" > Thirteen Courses </option>
       <option value="fourtheen_course" class="fourtheen_c" id="fourtheen_c" > Fourtheen Courses </option>
 
     </select>
+
+    <button type="submit" class="gpacalc" id="gpacalc" name="gpacalc" >
+      Proceed
+    </button>
+
+  </form>
 
  </body>
 </html>

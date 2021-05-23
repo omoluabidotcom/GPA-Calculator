@@ -24,3 +24,18 @@ h4 {
     color: blue;
 }
 
+.gpacalc {
+    display: block;
+    margin: 10px;
+    margin-right: 150px;
+    margin-top: 20px;
+    float: right;
+    color: blue;
+    width: 70px;
+    border-width: 1px;
+}
+
+.gpacalc:hover {
+    font-weight: bold;   
+}
+
