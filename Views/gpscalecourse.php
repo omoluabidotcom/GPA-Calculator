@@ -37,7 +37,7 @@
 
     </select>
 
-    <button type="submit" class="gpacalc" id="gpacalc" name="gpacalc" >
+    <button type="submit" class="proceed_btn" id="proceed_btn" name="proceed_btn" >
       Proceed
     </button>
 

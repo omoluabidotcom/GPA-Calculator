@@ -26,47 +26,47 @@
         switch($scale) {
           
           case "five_course":
-            return include 'Courses/five.html';
+            return include 'Courses/five.php';
             break;
           
           case "six_course":
-            return include 'Courses/six.html';
+            return include 'Courses/six.php';
             break;
 
           case "seven_course":
-              return include 'Courses/seven.html';
+              return include 'Courses/seven.php';
               break;
 
           case "eight_course":
-              return include 'Courses/eight.html';
+              return include 'Courses/eight.php';
               break;
 
           case "nine_course":
-              return include 'Courses/nine.html';
+              return include 'Courses/nine.php';
               break;
 
           case "ten_course":
-              return include 'Courses/ten.html';
+              return include 'Courses/ten.php';
               break;
 
           case "eleven_course":
-              return include 'Courses/eleven.html';
+              return include 'Courses/eleven.php';
               break;
 
           case "twelve_course":
-              return include 'Courses/twelve.html';
+              return include 'Courses/twelve.php';
               break;
 
           case "thirteen_course":
-              return include 'Courses/thirteen.html';
+              return include 'Courses/thirteen.php';
               break;
 
           case "fourtheen_course":
-              return include 'Courses/fourtheen.html';
+              return include 'Courses/fourtheen.php';
               break;
 
           default: 
-              include 'Courses/five.html';
+              return include 'Courses/five.php';
               break;
           }
 

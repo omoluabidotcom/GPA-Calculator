@@ -53,3 +53,19 @@
     margin: 4px;
     height: 33px;
   }
+
+  .gpcalc {
+    display: block;
+    margin: 10px;
+    margin-right: 180px;
+    margin-top: 20px;
+    float: right;
+    color: blue;
+    width: 100px;
+    height: 25px;
+    border-width: 2px;
+  }
+
+  .gpcalc:hover {
+    font-weight: bold;   
+}

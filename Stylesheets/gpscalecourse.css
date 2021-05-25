@@ -24,7 +24,7 @@ h4 {
     color: blue;
 }
 
-.gpacalc {
+.proceed_btn {
     display: block;
     margin: 10px;
     margin-right: 150px;
@@ -35,7 +35,7 @@ h4 {
     border-width: 1px;
 }
 
-.gpacalc:hover {
+.proceed_btn:hover {
     font-weight: bold;   
 }
 
