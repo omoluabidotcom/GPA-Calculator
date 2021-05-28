@@ -12,10 +12,7 @@
  <div class="main_container" id="main_container" >
 
   
-  <form action="five.php" method="POST" class="course_form form" id="course_form form" >
-
-    
-    
+  <form method="POST" action="<?php echo $file_name; ?>" class="course_form form" id="course_form form" >
     
     <div class="course_div div" id="course_div div" >
 
@@ -157,17 +154,15 @@
 
     </div>
 
-    <button type="submit" class="gpcalc" id="gpcalc" name="gpcalc" >
+    <button type="submit" class="gpcalc" id="gpcalc" name="gpcalc" > 
       Calculate GP
     </button>
-
-    <?php 
     
-    include '../../Inc/fourcourses.php';
-
-    ?>
-
    </form>
+
+   <!-- <?php 
+    include '../Inc/fivecourses.inc.php';
+   ?> -->
 
   </div>
 
