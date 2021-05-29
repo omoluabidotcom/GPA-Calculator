@@ -8,24 +8,75 @@
 
  <body>
 
-    <!-- Below an header for the homepage is added using php -->
-    <?php 
-      include 'header.html'; 
-    ?>
-
     <?php
-      $file_name = $_SERVER['SCRIPT_NAME']; 
-      echo "<br /> <br />";
-      include 'logic.php';
-    ?>
 
-    <?php
-      echo "<br /> <br />";
-      include 'indexfooter.html';
-    ?>
+    if (isset($_POST['scale']))  {
+        
+        // && isset($POST['grading'])
+        
+        $scale = $_POST['scale'];
 
-    <?php 
-      include '../Inc/fivecourses.inc.php';
+        $grading = $_POST['grading'];
+
+        if ($scale === "five_course" ) {
+            
+            header("Location: Courses/five.php");
+        } else if($scale === "six_course") {
+
+            header("Location: Courses/six.php");
+        } else if ($scale === "seven_course") {
+
+            header("Location: Courses/seven.php");
+        } else if ($scale === "eight_course") {
+
+            header("Location: Courses/eight.php");
+        } else if ($scale === "nine_course") {
+
+            header("Location: Courses/nine.php");
+        } else if ($scale === "ten_course") {
+
+            header("Location: Courses/ten.php");
+        } else if ($scale === "eleven_course") {
+
+            header("Location: Courses/eleven.php");
+        } else if ($scale === "twelve_course") {
+
+            header("Location: Courses/twelve.php");
+        } else if ($scale === "thirteen_course") {
+
+            header("Location: Courses/thirteen.php");
+        } else if ($scale === "fourtheen_course") {
+
+            header("Location: Courses/fourtheen.php");
+        } else {
+
+            header("Location: Courses/five.php");
+        } 
+
+          // switch($grading) {
+          
+          //   case "four":
+          //     return include '';
+          //     break;
+            
+          //   case "five":
+          //     return include '';
+          //     break;
+  
+          //   case "seven":
+          //       return include '';
+          //       break;
+  
+          //   default: 
+          //       return include '';
+          //       break;
+          //   }
+
+      } 
+
+
+    
+      // include 'logic.php';
     ?>
 
  </body>

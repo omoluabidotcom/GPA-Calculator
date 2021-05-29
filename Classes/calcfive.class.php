@@ -1,13 +1,15 @@
 <?php
 
+// Below a class a created
 class Calcfive {
 
+    // Below properties to be used in class are created
     private $score;
     private  $point;
     private $value_one;
     private $value_two;
 
-    
+    // Below a method that accept course score as an input and return a an alphabet equivalent is been created
     public function getGrade ($score) {
 
         $this->$score = $score;
@@ -36,7 +38,7 @@ class Calcfive {
         
     }
 
-
+    // Below a method that accept a grade in an alphabetic format and convert it to a number on a predefined grading system
     public function getCpoint($weight) {
 
         $this->point = $weight;
@@ -65,7 +67,7 @@ class Calcfive {
         
       }
       
-
+      // Below is a method that accept two input, multiply this input and return a result 
       public function GP($value_one, $value_two) {
       
         $this->value_one = $value_one;

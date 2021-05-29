@@ -1,13 +1,15 @@
 <?php
 
+// Below a class a created
 class Calcfour {
 
+    // Below properties to be used in class are created
     private $score;
     private  $weight;
     private $value_one;
     private $value_two;
 
-    
+    // Below a method that accept course score as an input and return a an alphabet equivalent is been created
     public function getGrade ($score) {
 
         $this->$score = $score;
@@ -46,44 +48,43 @@ class Calcfour {
     }
 
 
+    // Below a method that accept a grade in an alphabetic format and convert it to a number on a predefined grading system
     public function getCpoint($weight) {
 
       $this->weight = $weight;
 
         if ($weight === 'A') {
       
-          $mainWeight = 4;
+          return $mainWeight = 4;
         } else if ($weight === 'AB') {
       
-            $mainWeight = 3.5;
+          return $mainWeight = 3.5;
         } else if ($weight === 'B') {
       
-          $mainWeight = 3.25;
+          return $mainWeight = 3.25;
         } else if ($weight === 'BC') {
       
-          $mainWeight = 3;
+          return $mainWeight = 3;
         } else if ($weight === 'C') {
       
-          $mainWeight = 2.75;
+          return $mainWeight = 2.75;
         } else if ($weight === 'CD') {
       
-          $mainWeight = 2.5;
+          return $mainWeight = 2.5;
         } else if ($weight === 'D') {
       
-          $mainWeight = 2.25;
+          return $mainWeight = 2.25;
         } else if ($weight === 'E') {
       
-          $mainWeight = 2;
+          return $mainWeight = 2;
         } else if ($weight === 'F') {
       
-          $mainWeight = 0;
+          return $mainWeight = 0;
         }
-      
-        return $mainWeight;
        
     }
 
-
+    // Below is a method that accept two input, multiply this input and return a result 
     public function GP($value_one, $value_two) {
       
       $this->value_one = $value_one;
@@ -94,9 +95,6 @@ class Calcfour {
       return $gp;
       
     }
-
-
-
 
 }
 

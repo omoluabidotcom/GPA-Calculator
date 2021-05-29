@@ -8,52 +8,40 @@
 
         $grading = $_POST['grading'];
 
-        switch($scale) {
-          
-          case "five_course":
-            return include 'Courses/five.php';
-            break;
-          
-          case "six_course":
-            return include 'Courses/six.php';
-            break;
+        if ($scale === "five_course" ) {
+            
+            include 'Courses/five.php';
+        } else if($scale === "six_course") {
 
-          case "seven_course":
-              return include 'Courses/seven.php';
-              break;
+            include 'Courses/six.php';
+        } else if ($scale === "seven_course") {
 
-          case "eight_course":
-              return include 'Courses/eight.php';
-              break;
+            return include 'Courses/seven.php';
+        } else if ($scale === "eight_course") {
 
-          case "nine_course":
-              return include 'Courses/nine.php';
-              break;
+            include 'Courses/eight.php';
+        } else if ($scale === "nine_course") {
 
-          case "ten_course":
-              return include 'Courses/ten.php';
-              break;
+            include 'Courses/nine.php';
+        } else if ($scale === "ten_course") {
 
-          case "eleven_course":
-              return include 'Courses/eleven.php';
-              break;
+            include 'Courses/ten.php';
+        } else if ($scale === "eleven_course") {
 
-          case "twelve_course":
-              return include 'Courses/twelve.php';
-              break;
+            include 'Courses/eleven.php';
+        } else if ($scale === "twelve_course") {
 
-          case "thirteen_course":
-              return include 'Courses/thirteen.php';
-              break;
+            include 'Courses/twelve.php';
+        } else if ($scale === "thirteen_course") {
 
-          case "fourtheen_course":
-              return include 'Courses/fourtheen.php';
-              break;
+            include 'Courses/thirteen.php';
+        } else if ($scale === "fourtheen_course") {
 
-          default: 
-              return include 'Courses/five.php';
-              break;
-          }
+            include 'Courses/fourtheen.php';
+        } else {
+
+            include 'Courses/five.php';
+        } 
 
           // switch($grading) {
           
