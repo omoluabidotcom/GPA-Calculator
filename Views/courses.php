@@ -10,7 +10,7 @@
 
     <?php
 
-    if (isset($_POST['scale']))  {
+    if (isset($_POST['scale']) && isset($_POST['grading']))  {
         
         // && isset($POST['grading'])
         
@@ -18,34 +18,34 @@
 
         $grading = $_POST['grading'];
 
-        if ($scale === "five_course" ) {
+        if ($scale === "five_course" && $grading === "four") {
             
             header("Location: Courses/five.php");
-        } else if($scale === "six_course") {
+        } else if($scale === "six_course" && $grading === "four") {
 
             header("Location: Courses/six.php");
-        } else if ($scale === "seven_course") {
+        } else if ($scale === "seven_course" && $grading === "four") {
 
             header("Location: Courses/seven.php");
-        } else if ($scale === "eight_course") {
+        } else if ($scale === "eight_course" && $grading === "four") {
 
             header("Location: Courses/eight.php");
-        } else if ($scale === "nine_course") {
+        } else if ($scale === "nine_course" && $grading === "four") {
 
             header("Location: Courses/nine.php");
-        } else if ($scale === "ten_course") {
+        } else if ($scale === "ten_course" && $grading === "four") {
 
             header("Location: Courses/ten.php");
-        } else if ($scale === "eleven_course") {
+        } else if ($scale === "eleven_course" && $grading === "four") {
 
             header("Location: Courses/eleven.php");
-        } else if ($scale === "twelve_course") {
+        } else if ($scale === "twelve_course" && $grading === "four") {
 
             header("Location: Courses/twelve.php");
-        } else if ($scale === "thirteen_course") {
+        } else if ($scale === "thirteen_course" && $grading === "four") {
 
             header("Location: Courses/thirteen.php");
-        } else if ($scale === "fourtheen_course") {
+        } else if ($scale === "fourtheen_course" && $grading === "four") {
 
             header("Location: Courses/fourtheen.php");
         } else {
@@ -53,30 +53,28 @@
             header("Location: Courses/five.php");
         } 
 
-          // switch($grading) {
+          switch($grading) {
           
-          //   case "four":
-          //     return include '';
-          //     break;
+            case "four":
+              return include '';
+              break;
             
-          //   case "five":
-          //     return include '';
-          //     break;
+            case "five":
+              return include '';
+              break;
   
-          //   case "seven":
-          //       return include '';
-          //       break;
+            case "seven":
+                return include '';
+                break;
   
-          //   default: 
-          //       return include '';
-          //       break;
-          //   }
+            default: 
+                return include '';
+                break;
+            }
 
       } 
 
 
-    
-      // include 'logic.php';
     ?>
 
  </body>
