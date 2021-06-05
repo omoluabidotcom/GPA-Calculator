@@ -11,7 +11,7 @@
     <!-- This file is the page that opens after the user click on calculate gpa on homepage -->
     <!-- Below an header is added -->
     <?php 
-      include 'header.html';
+      include 'headerr.html';
     ?>
 
     <!-- Below a the page that contains the dropdown of grade system and courses to select is added -->

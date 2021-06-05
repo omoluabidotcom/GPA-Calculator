@@ -14,7 +14,7 @@
     margin: 10px;
     margin-left: 10px;
     width: 110px;
-    margin-bottom: 164px;
+    margin-bottom: 45px;
     border-width: 1px;
 }
 
@@ -24,11 +24,17 @@ h4 {
     color: blue;
 }
 
+.describe {
+    margin: 0px;
+    margin-left: 10px;
+    color: black; 
+}
+
 .proceed_btn {
     display: block;
     margin: 10px;
     margin-right: 150px;
-    margin-top: 20px;
+    margin-top: 10px;
     float: right;
     color: blue;
     width: 70px;

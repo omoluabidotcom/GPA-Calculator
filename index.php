@@ -24,7 +24,7 @@
 
     <!-- Below an header for the homepage is added using php -->
     <?php 
-      include 'Views/header.html';
+      include 'Views/headerr.html';
     ?>
     
     <!-- Below an body is added to the homepage using php -->

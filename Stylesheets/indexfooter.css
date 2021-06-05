@@ -1,11 +1,21 @@
 * {
     display: block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.comment_no {
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: red;
+    font-size: 20px;
+    margin-top: 50px;
 }
 
 .comment_form {
     text-align: left;
     margin: 5px;
+    margin-top: 50px;
 }
 
 .name_input {
@@ -23,5 +33,11 @@
 
 .form_names {
     margin-left: 10px;
+    color: blue;
+}
+
+.comment_btn {
+    margin-left: 468px;
+    margin-top: 15px;
     color: blue;
 }

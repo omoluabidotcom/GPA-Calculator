@@ -9,9 +9,9 @@
 
  <body>
    <?php
-    include '../../Classes/calcfour.class.php';
+    include '../../Classes/calcfive.class.php';
       
-    include '../../Inc/fivecourses.inc.php';
+    include '../../Inc/tencourses.inc.php';
   ?>
 
   <?php 
@@ -164,6 +164,148 @@
 
     </div>
 
+    <div class="course_div div" id="course_div div" >
+
+      <div id="inline">
+      <button type="" class="sno" id="sno" name="sno" > 6 </button> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Name <br />
+      <input type="text" class="course_name second" id="course_name" name="coursename_six" value="<?php if (isset($coursename_six)) {echo $coursename_six;} ?>" /> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Unit <br />
+      <input type="number" class="course_unit third" id="course_unit" name="courseunit_six" value="<?php if (isset($courseunit_six)) {echo $courseunit_six;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Score <br />
+      <input type="number" class="course_score fourth" id="course_score" name="coursescore_six" value="<?php if (isset($coursescore_six)) {echo $coursescore_six;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Grade <br />
+      <input type="text" class="course_grade fifth" id="course_grade" name="coursegrade_six" value="<?php if (isset($coursegrade_six)) {echo $coursegrade_six;} ?>" />
+      </div>
+
+    </div>
+
+    <div class="course_div div" id="course_div div" >
+
+      <div id="inline">
+      <button type="" class="sno" id="sno" name="sno" > 7 </button> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Name <br />
+      <input type="text" class="course_name second" id="course_name" name="coursename_seven" value="<?php if (isset($coursename_seven)) {echo $coursename_seven;} ?>" /> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Unit <br />
+      <input type="number" class="course_unit third" id="course_unit" name="courseunit_seven" value="<?php if (isset($courseunit_seven)) {echo $courseunit_seven;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Score <br />
+      <input type="number" class="course_score fourth" id="course_score" name="coursescore_seven" value="<?php if (isset($coursescore_seven)) {echo $coursescore_seven;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Grade <br />
+      <input type="text" class="course_grade fifth" id="course_grade" name="coursegrade_seven" value="<?php if (isset($coursegrade_seven)) {echo $coursegrade_seven;} ?>" />
+      </div>
+
+    </div>
+
+    <div class="course_div div" id="course_div div" >
+
+      <div id="inline">
+      <button type="" class="sno" id="sno" name="sno" > 8 </button> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Name <br />
+      <input type="text" class="course_name second" id="course_name" name="coursename_eight" value="<?php if (isset($coursename_eight)) {echo $coursename_eight;} ?>" /> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Unit <br />
+      <input type="number" class="course_unit third" id="course_unit" name="courseunit_eight" value="<?php if (isset($courseunit_eight)) {echo $courseunit_eight;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Score <br />
+      <input type="number" class="course_score fourth" id="course_score" name="coursescore_eight" value="<?php if (isset($coursescore_eight)) {echo $coursescore_eight;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Grade <br />
+      <input type="text" class="course_grade fifth" id="course_grade" name="coursegrade_eight" value="<?php if (isset($coursegrade_eight)) {echo $coursegrade_eight;} ?>" />
+      </div>
+
+    </div>
+
+    <div class="course_div div" id="course_div div" >
+
+      <div id="inline">
+      <button type="" class="sno" id="sno" name="sno" > 9 </button> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Name <br />
+      <input type="text" class="course_name second" id="course_name" name="coursename_nine" value="<?php if (isset($coursename_nine)) {echo $coursename_nine;} ?>" /> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Unit <br />
+      <input type="number" class="course_unit third" id="course_unit" name="courseunit_nine" value="<?php if (isset($courseunit_nine)) {echo $courseunit_nine;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Score <br />
+      <input type="number" class="course_score fourth" id="course_score" name="coursescore_nine" value="<?php if (isset($coursescore_nine)) {echo $coursescore_nine;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Grade <br />
+      <input type="text" class="course_grade fifth" id="course_grade" name="coursegrade_nine" value="<?php if (isset($coursegrade_nine)) {echo $coursegrade_nine;} ?>" />
+      </div>
+
+    </div>
+
+    <div class="course_div div" id="course_div div" >
+
+      <div id="inline">
+      <button type="" class="sno" id="sno" name="sno" > 10 </button> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Name <br />
+      <input type="text" class="course_name second" id="course_name" name="coursename_ten" value="<?php if (isset($coursename_ten)) {echo $coursename_ten;} ?>" /> 
+      </div>
+
+      <div class="inline" id="inline" >
+      Course Unit <br />
+      <input type="number" class="course_unit third" id="course_unit" name="courseunit_ten" value="<?php if (isset($courseunit_ten)) {echo $courseunit_ten;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Score <br />
+      <input type="number" class="course_score fourth" id="course_score" name="coursescore_ten" value="<?php if (isset($coursescore_ten)) {echo $coursescore_ten;} ?>" />
+      </div>
+
+      <div class="inline" id="inline" >
+      Grade <br />
+      <input type="text" class="course_grade fifth" id="course_grade" name="coursegrade_ten" value="<?php if (isset($coursegrade_ten)) {echo $coursegrade_ten;} ?>" />
+      </div>
+
+    </div>
+
+
+
     <button type="submit" class="gpcalc" id="gpcalc" name="gpcalc" > 
       Calculate GP
     </button>
@@ -171,17 +313,8 @@
    </form>
 
    <?php
-
-      if (!empty($gpa)) {
-
-        echo '<h4 class="gpa" id="gpa" > Your Semester GPA is '. $gpa .'</h4> ';
-      }
-   ?>
-   
-   <?php
       include '../indexfooter.html';
-   ?>
-
+    ?>
 
   </div>
 

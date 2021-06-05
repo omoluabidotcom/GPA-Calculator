@@ -60,6 +60,7 @@
     margin: 10px;
     margin-right: 180px;
     margin-top: 20px;
+    margin-bottom: 20px;
     float: right;
     color: blue;
     width: 100px;
@@ -69,4 +70,11 @@
 
   .gpcalc:hover {
     font-weight: bold;   
-}
+ }
+
+ .gpa {
+  margin: 10px;
+  margin-left: 160px;
+  color: blue;
+  float: left;
+ }
