@@ -11,7 +11,7 @@
    <?php
     include '../../Classes/calcfive.class.php';
       
-    include '../../Inc/ninecourses.inc.php';
+    include '../../Inc/nine.inc.php';
   ?>
 
   <?php 
