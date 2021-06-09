@@ -22,7 +22,6 @@
       
       <option value="four" class="four_p" id="four_p" > 4.0 </option>
       <option value="five" class="five_p" id="five_p" > 5.0 </option>
-      <option value="seven" class="seven_p" id="seven_p" > 7.0 </option>
 
     </select>
    
