@@ -1,6 +1,8 @@
 @import url("header.css");
 @import url("indexbody.css");
+@import url("cgpabody.css");
 @import url("indexfooter.css");
+
 
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
