@@ -22,3 +22,9 @@
 .cgpa_btn:hover {
   font-weight: bold;
 }
+
+.msg {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
